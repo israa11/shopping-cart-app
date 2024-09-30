@@ -1,0 +1,203 @@
+
+  body{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+.container{
+    width: 80%;
+ margin: auto; 
+}
+
+.head{
+    background-color: rgb(36, 35, 35);
+   
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none; 
+}
+ul  li a {
+    display: block;
+    color: #fff;
+    min-width: 50px;
+    margin: 0 5px;
+   padding: 5px; 
+  }
+  .main-title{
+    visibility: hidden;
+  }
+  
+.main-title  li.shoppingCart{
+    position: relative;
+}
+.main-title  li.shoppingCart i{
+font-size: 20px;
+cursor: pointer;
+margin-left: 7px;
+}
+ .main-title li.shoppingCart .badge{
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: -8px;
+    background-color: red;
+   
+    border-radius: 50%;
+    
+   
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+
+    line-height: 20px;
+}
+
+.content{
+  margin-top: 20px; 
+}
+.content input{
+    width: 100%;
+    padding: 15px 4px 15px 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.products-cont{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.products-cont .plus{
+    position: fixed;
+    content: "";
+    right: 29px;
+    bottom: 64px;
+    border-radius: 50%;
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+.products{
+    display: flex;
+    flex-direction: column; 
+    
+    flex:  60%;
+}
+.products-cont .filtered{
+    flex:  40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.filtered label{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.filtered #sizes{
+width: 100%;
+padding: 10px;
+}
+.products .product {
+    border: 1px solid rgb(152, 149, 149);
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.products .product .text{
+   padding-bottom: 20px;
+  
+ width: 60%;
+   
+}
+.products .product .info{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.products .product .info .heart{
+    text-align: right;
+}
+.products .product img {
+width: 150px;
+height: 100%;
+}
+
+
+.plusheart{
+    color: red;
+}
+
+
+/* ######################Form ###################*/
+
+.create-form{
+    padding: 100px;
+    margin: 0 auto;
+  }
+  
+  
+  .create-form input,
+  .create-form select{
+      width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #999;
+    margin: 10px 0;
+    display: block;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  .create-form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+
+
+  /*########################### Register ################*/
+
+  .Register{
+    position: relative;
+    min-height: 100vh;
+}
+
+.Register-box{
+position: absolute;
+    margin:   auto;
+    background-color: aqua;
+   width: fit-content;
+   padding: 30px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+  
+}
+.Register-box h2{
+    text-align: center;
+}
+.Register-box form input{
+    display: block;
+    width: 400px;
+    margin-top: 10px;
+    padding: 15px 10px;
+}
+
+.Register-box form input[type="submit"]{
+width: 100%;
+}
